@@ -17,6 +17,10 @@
 		9F30094929D8A22F00C5806B /* FruitsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F30094829D8A22F00C5806B /* FruitsModel.swift */; };
 		9F30094C29D8A2F900C5806B /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F30094B29D8A2F900C5806B /* FruitData.swift */; };
 		9F97C27C29D8CFFA003DBBE8 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F97C27B29D8CFFA003DBBE8 /* FruitRowView.swift */; };
+		9F97C27E29D91A88003DBBE8 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F97C27D29D91A88003DBBE8 /* FruitDetailView.swift */; };
+		9F97C28029D9F06F003DBBE8 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F97C27F29D9F06F003DBBE8 /* FruitHeaderView.swift */; };
+		9F97C28229D9F28D003DBBE8 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F97C28129D9F28D003DBBE8 /* SourceLinkView.swift */; };
+		9F97C28429D9F458003DBBE8 /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F97C28329D9F458003DBBE8 /* FruitNutrientsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		9F30094829D8A22F00C5806B /* FruitsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsModel.swift; sourceTree = "<group>"; };
 		9F30094B29D8A2F900C5806B /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 		9F97C27B29D8CFFA003DBBE8 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
+		9F97C27D29D91A88003DBBE8 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
+		9F97C27F29D9F06F003DBBE8 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
+		9F97C28129D9F28D003DBBE8 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+		9F97C28329D9F458003DBBE8 /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +95,7 @@
 				9F30093129D85A1A00C5806B /* FructusApp.swift */,
 				9F30093329D85A1A00C5806B /* ContentView.swift */,
 				9F30094529D8699300C5806B /* OnBoardingView.swift */,
+				9F97C27D29D91A88003DBBE8 /* FruitDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -97,6 +106,9 @@
 				9F30094129D861BD00C5806B /* FruitCardView.swift */,
 				9F30094329D8671400C5806B /* StartButtonView.swift */,
 				9F97C27B29D8CFFA003DBBE8 /* FruitRowView.swift */,
+				9F97C27F29D9F06F003DBBE8 /* FruitHeaderView.swift */,
+				9F97C28129D9F28D003DBBE8 /* SourceLinkView.swift */,
+				9F97C28329D9F458003DBBE8 /* FruitNutrientsView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -188,10 +200,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F30094C29D8A2F900C5806B /* FruitData.swift in Sources */,
+				9F97C28229D9F28D003DBBE8 /* SourceLinkView.swift in Sources */,
 				9F30094229D861BD00C5806B /* FruitCardView.swift in Sources */,
 				9F97C27C29D8CFFA003DBBE8 /* FruitRowView.swift in Sources */,
+				9F97C28429D9F458003DBBE8 /* FruitNutrientsView.swift in Sources */,
 				9F30094429D8671400C5806B /* StartButtonView.swift in Sources */,
+				9F97C27E29D91A88003DBBE8 /* FruitDetailView.swift in Sources */,
 				9F30094929D8A22F00C5806B /* FruitsModel.swift in Sources */,
+				9F97C28029D9F06F003DBBE8 /* FruitHeaderView.swift in Sources */,
 				9F30093429D85A1A00C5806B /* ContentView.swift in Sources */,
 				9F30094629D8699300C5806B /* OnBoardingView.swift in Sources */,
 				9F30093229D85A1A00C5806B /* FructusApp.swift in Sources */,
